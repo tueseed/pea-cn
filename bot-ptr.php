@@ -154,6 +154,8 @@ if (!is_null($events['events'])) {
 				'text' => $Myd    
 			             ];
 			 }
+			if($text=="Pea Smart Location"){$Myd = "Pea Smart Location เป็นระบบค้นหาพิกัดที่ตั้ง หม้อแปลง ดรอฟเอ๊าท์ สวิซต์ ในระบบจำหน่ายของ กฟต.1 สามารถค้นหาได้โดยพิมพ์ รหัส PEA หม้อแปลง หรือ รหัสดรอฟเอ็าท์ฟิวส์ เช่น PTH04S-30,/24-005152";$messages = ['type' => 'text','text' => $Myd];}
+			if($text=="ข้อมูลยานพาหนะ"){$Myd = "ข้อมูลยานพาหนะ สามารถค้นหาข้อมูลยานพาหนะของ กฟต.1 ได้โดยการพิมพ์หมายเลขทะเบียน เช่น กธ-6340";$messages = ['type' => 'text','text' => $Myd];}
 			if($text=="เสา"){$Myd = $pole;$messages = ['type' => 'text','text' => $Myd];}
 			if($text=="คอนสาย คาน"){$Myd =  $crossarm;$messages = ['type' => 'text','text' => $Myd];}
 			if($text=="อุปกรณ์ยึดคอนสาย"){$Myd = $cross_eq;$messages = ['type' => 'text','text' => $Myd];}
