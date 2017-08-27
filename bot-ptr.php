@@ -210,7 +210,7 @@ if (!is_null($events['events'])) {
 			 }
 			
 			
-			 if ($Myd==""){
+			 if ($text=="มาตรฐานงานก่อสร้าง"){
 				 $findresult = "N/A";
 				 $messages = array(
 					 'type'=> 'template',
