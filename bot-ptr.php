@@ -27,7 +27,32 @@ if (!is_null($events['events'])) {
 			$userid = $event['source']['userId'];
 			// Get replyToken
 			$replyToken = $event['replyToken'];
-			
+		if($text=="mode"){
+				$messages = array(
+					'type'=> 'template',
+					'altText'=> 'PeaSmartQuery',
+				         'template'=>array(
+						 'type'=>'buttons',
+						 'text'=>'กรุณาเลือกสิ่งที่ต้องการ',
+				                   'actions'=>array(
+							   
+							         array('type'=> 'message','label'=> 'ระเบียบก่อสร้างปี 59','text'=> 'ระเบียบก่อสร้างปี 59'),
+							         array('type'=> 'message','label'=> 'มาตรฐานงานก่อสร้าง','text'=> 'มาตรฐานงานก่อสร้าง'),
+								 array('type'=> 'message','label'=> 'Pea Smart Location','text'=> 'Pea Smart Location'),  
+								 array('type'=> 'message','label'=> 'ข้อมูลยานพาหนะ','text'=> 'ข้อมูลยานพาหนะ')  
+								   
+								   )
+					                   )
+					
+					
+					);
+					  
+					  
+					  
+					  
+					  
+					  
+			}	
             $csv = array_map('str_getcsv', file('sta.csv'));
             $findName = iconv("utf-8","tis-620",$text);
 			//$findName = strtoupper($findName);
@@ -184,7 +209,7 @@ if (!is_null($events['events'])) {
 			 }
 			
 			
-			 if ($Myd==""){
+			 if ($text=="มาตรฐานงานก่อสร้าง"){
 				 $findresult = "N/A";
 				 $messages = array(
 					 'type'=> 'template',
