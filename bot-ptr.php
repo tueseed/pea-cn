@@ -68,7 +68,29 @@ if (!is_null($events['events'])) {
 				'text' => $Myd ];
 	     }
 			 }
-			
+			//สร้างข้อความภาคผนวก
+			if($text=="ภาคผนวก"){
+				$messages = array(
+					'type'=> 'template',
+					'altText'=> 'กรุณาเลือกภาคผนวก',
+				         'template'=>array(
+						 'type'=>'buttons',
+						 'text'=>'กรุณาเลือกภาคผนวก',
+				                   'actions'=>array(
+							   
+							         array('type'=> 'message','label'=> 'ภาคผนวก ก','text'=> 'ภาคผนวก ก'),
+							         array('type'=> 'message','label'=> 'ภาคผนวก ข','text'=> 'ภาคผนวก ข'),
+								 array('type'=> 'message','label'=> 'ภาคผนวก ค','text'=> 'ภาคผนวก ค'),  
+								 array('type'=> 'message','label'=> 'ภาคผนวก ง','text'=> 'ภาคผนวก ง')  
+								   
+								   )
+					                   )
+					
+					
+					);
+						  
+			}
+			//จบสร้างข้อความภาคผนวก
 			////เข้าโหมดระเบียบ
 			if ($text=="ระเบียบก่อสร้างปี 59") {
 		                // Build message to reply back
