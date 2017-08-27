@@ -50,6 +50,7 @@ if (!is_null($events['events'])) {
 					'altText'=> 'กรุณาเลือกภาคผนวก',
 				         'template'=>array(
 						 'type'=>'buttons',
+						 'thumbnailImageUrl'=>'https://line-ptr-switch.herokuapp.com/PIC2.jpg',
 						 'text'=>'กรุณาเลือกภาคผนวก',
 				                   'actions'=>array(
 							   
@@ -354,6 +355,7 @@ if (!is_null($events['events'])) {
 					'altText'=> 'Pea smart query',
 				         'template'=>array(
 						 'type'=>'buttons',
+						 'thumbnailImageUrl'=>'https://line-ptr-switch.herokuapp.com/PIC2.jpg',
 						 'text'=>'กรุณาเลือกสิ่งที่ต้องการ',
 				                   'actions'=>array(
 							   
