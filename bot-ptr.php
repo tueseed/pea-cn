@@ -43,7 +43,7 @@ if (!is_null($events['events'])) {
 	     }
 			 }
 			//สร้างข้อความภาคผนวก
-			if($text=="ภาคผนวก"){
+			if($Myd=="905"){
 				$messages = array(
 					'type'=> 'template',
 					'altText'=> 'กรุณาเลือกภาคผนวก',
@@ -66,7 +66,7 @@ if (!is_null($events['events'])) {
 			}
 			//จบสร้างข้อความภาคผนวก
 			////เข้าโหมดระเบียบ
-			if ($text=="ระเบียบก่อสร้างปี 59") {
+			if ($Myd=="901") {
 		                // Build message to reply back
 				$findresult = "N/A";
 			$messages = array(
