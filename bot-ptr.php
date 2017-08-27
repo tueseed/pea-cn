@@ -78,6 +78,7 @@ if (!is_null($events['events'])) {
                                                          'columns'=> array(
 							   
 						                    array(
+							            'thumbnailImageUrl'=>'https://line-ptr-switch.herokuapp.com/PIC2.jpg',
 								    'title'=>'ระเบียบก่อสร้างปี59 กรุณาเลือกหมวด',    
 								    'text'=> 'หมวดที่1 สำรวจออกแบบ ประมาณการ',
                                                                     'actions'=>array (
@@ -89,6 +90,7 @@ if (!is_null($events['events'])) {
                                                                                       )//action col1
 								     ),
 								     array(
+							            'thumbnailImageUrl'=>'https://line-ptr-switch.herokuapp.com/PIC2.jpg',
 							            'title'=>'ระเบียบก่อสร้างปี59 กรุณาเลือกหมวด', 
 								    'text'=> 'หมวดที่2 การดำเนินการก่อสร้าง',
                                                                     'actions'=>array (
@@ -100,6 +102,7 @@ if (!is_null($events['events'])) {
                                                                                       )//action col2
 							             ),
 							              array(
+								    'thumbnailImageUrl'=>'https://line-ptr-switch.herokuapp.com/PIC2.jpg',      
 							           'title'=>'ระเบียบก่อสร้างปี59 กรุณาเลือกหมวด', 
 								    'text'=> 'หมวดที่3 อำนาจอนุมัติ',
                                                                     'actions'=>array (
@@ -111,6 +114,7 @@ if (!is_null($events['events'])) {
                                                                                       )//action col3
 								     ),
 								   array(
+							          'thumbnailImageUrl'=>'https://line-ptr-switch.herokuapp.com/PIC2.jpg',
 							           'title'=>'ระเบียบก่อสร้างปี59 กรุณาเลือกหมวด', 
 								    'text'=> 'ภาคผนวก',
                                                                     'actions'=>array (
@@ -286,6 +290,7 @@ if (!is_null($events['events'])) {
                                                          'columns'=> array(
 							   
 						                    array(
+							           'thumbnailImageUrl'=>'https://line-ptr-switch.herokuapp.com/PIC2.jpg',
 								    'title'=>'มาตรฐานงานก่อสร้างกรุณาเลือกแผนก',    
 								    'text'=> 'แผนกแรงสูง',
                                                                     'actions'=>array (
@@ -297,6 +302,7 @@ if (!is_null($events['events'])) {
                                                                                       )//action col1
 								     ),
 								     array(
+								    'thumbnailImageUrl'=>'https://line-ptr-switch.herokuapp.com/PIC2.jpg',
 							            'title'=>'มาตรฐานงานก่อสร้างกรุณาเลือกแผนก', 
 								    'text'=> 'แผนกหม้อแปลง',
                                                                     'actions'=>array (
@@ -308,6 +314,7 @@ if (!is_null($events['events'])) {
                                                                                       )//action col2
 							             ),
 							              array(
+								  'thumbnailImageUrl'=>'https://line-ptr-switch.herokuapp.com/PIC2.jpg',
 							           'title'=>'มาตรฐานงานก่อสร้างกรุณาเลือกแผนก', 
 								    'text'=> 'แผนกแรงต่ำ',
                                                                     'actions'=>array (
@@ -319,6 +326,7 @@ if (!is_null($events['events'])) {
                                                                                       )//action col3
 								     ),
 								   array(
+							          'thumbnailImageUrl'=>'https://line-ptr-switch.herokuapp.com/PIC2.jpg',
 							           'title'=>'มาตรฐานงานก่อสร้างกรุณาเลือกแผนก', 
 								    'text'=> 'อุปกรณ์ในระบบจำหน่าย',
                                                                     'actions'=>array (
