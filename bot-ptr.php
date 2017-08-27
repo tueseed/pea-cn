@@ -54,9 +54,8 @@ if (!is_null($events['events'])) {
 					  
 			}
 			//เลือกไฟล์
-		if($text=="ระเบียบก่อสร้างปี 59"){$filesel = 'law.csv';}
-	        if($text=="มาตรฐานงานก่อสร้าง"){$filesel = 'sta.csv';}
-            $csv = array_map('str_getcsv', file($filesel));
+		
+            $csv = array_map('str_getcsv', file('sta.csv));
             $findName = iconv("utf-8","tis-620",$text);
 			//$findName = strtoupper($findName);
             foreach($csv as $values)
