@@ -53,9 +53,9 @@ if (!is_null($events['events'])) {
 					  
 					  
 			}
-			//เลือกไฟล์
+			
 		
-            $csv = array_map('str_getcsv', file('sta.csv));
+            $csv = array_map('str_getcsv',file('sta.csv));
             $findName = iconv("utf-8","tis-620",$text);
 			//$findName = strtoupper($findName);
             foreach($csv as $values)
