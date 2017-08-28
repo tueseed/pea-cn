@@ -1,5 +1,5 @@
-<?php
-$access_token = 'uK2r676htODbjL3j7t7cz8N7x52wYxHS7HRY6Y5YT2o8iYJDYipzJaQG7QkYnrF+wlzOKvwCrWlg25b/Et/43ZbsTyQGO9IFqu8IlpmGvTYkPFkT8/cpRpABMVyGWn+eIlJQAzgNhdh2UhWYyFsCvgdB04t89/1O/w1cDnyilFU=';
+<?php //โพธาราม3
+$access_token = 'f/V0MitI4wwlts9iqQ+nxUWLDTOUau3qSikfW256dwwZtZu4jsDdsH/dEpmrgkCi+VeoJZE/4KJp/jd8UiaKEfkxxhg7BXiUu9hIJh3PZycKojMUl7YyfmKkkq7QHZo6X9eGdkB4g4KNyh/fx8ddVgdB04t89/1O/w1cDnyilFU=';
 // Get POST body content
 //ตัวแปรรายการอุปกรณ์
 $pole = "49.เสาคอนกรีต 8 9 9.3 เมตร\n50.เสาคอนกรีต 12 12.2 14 14.3 16 เมตร\n…พิมพ์เลขที่หัวข้อที่ต้องการได้เลยครับ";
