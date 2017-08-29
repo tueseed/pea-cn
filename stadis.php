@@ -8,7 +8,7 @@ $file = "cndis.csv";
 echo "<a href='https://pea-standard.herokuapp.com/stadis.csv'>donload</a> ";
 $Ti = date("H:i:s",mktime(date("H")+7, date("i")+0, date("s")+0));
 $Da = date("d.m.y");
-echo " สถิติการใช้งาน Pea Smart Query(มาตรฐานการก่อสร้างระบบจำหน่าย) สถานะ:"." วันที่  ".$Da."  เวลา  ".$Ti;
+echo " สถิติการใช้งาน Pea Smart Query-ระบบสืบค้นข้อมูลอัจฉริยะผ่านแอพพลิเคชั่นไลน์ สถานะ:"." วันที่  ".$Da."  เวลา  ".$Ti;
 ?>
 <?php
 $objCSV = fopen("stadis.csv", "r");
