@@ -1,5 +1,5 @@
-<?php//กฟต.1-8
-$access_token ='Ic7C4amybrY/6I6lkMssHnGSK3vVz95ZMrSYPqjcRt+Sf+VxzcYDVAy8507sOMd+sP3XZPUyugknLV56oNMg3woZGXOsjUDclHB/E9r+2Og2VczR3137EvthFQjkz2fg34JJxhaX7RDMhN6C840V5gdB04t89/1O/w1cDnyilFU=';
+<?php //กฟต.1-7
+$access_token = 'FuAKF3ts4w0mtRwFuVSmTmKy3Qnvru2iWrDFhrkfLiy+eoDhyJsIXusrccWzx5JlBRy2NFGnvS+UV3y9jrqG4TdomrK6cn2goKJ6NocFCBS9fPaNEOar75EsM6CherpQT/iRv8Q40gDVQQUGb9Sy6wdB04t89/1O/w1cDnyilFU=';
 // Get POST body content
 //ตัวแปรรายการอุปกรณ์
 $pole = "49.เสาคอนกรีต 8 9 9.3 เมตร\n50.เสาคอนกรีต 12 12.2 14 14.3 16 เมตร\n…พิมพ์เลขที่หัวข้อที่ต้องการได้เลยครับ";
@@ -373,7 +373,6 @@ if (!is_null($events['events'])) {
 			}/////จบเลือกโหมด
                 // Build message to reply back
 			
-
 			// Make a POST Request to Messaging API to reply to sender
 			$url = 'https://api.line.me/v2/bot/message/reply';
 			$data = [
@@ -382,7 +381,6 @@ if (!is_null($events['events'])) {
 			];
 			$post = json_encode($data);
 			$headers = array('Content-Type: application/json', 'Authorization: Bearer ' . $access_token);
-
 			$ch = curl_init($url);
 			curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "POST");
 			curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
@@ -391,7 +389,6 @@ if (!is_null($events['events'])) {
 			curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
 			$result = curl_exec($ch);
 			curl_close($ch);
-
 			echo $result . "\r\n";
 		
 			
@@ -399,7 +396,6 @@ if (!is_null($events['events'])) {
 	}
 	//// getdisplay
 	$url = 'https://api.line.me/v2/bot/profile/'.$userid;
-
    $headers = array('Authorization: Bearer ' . $access_token);
    $ch = curl_init($url);
    curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "GET");
@@ -411,7 +407,6 @@ if (!is_null($events['events'])) {
    curl_close($ch);
    $displayname = $result;
 	//end get
-
 }
 $Ti = date("H:i:s",mktime(date("H")+7, date("i")+0, date("s")+0));
 $Da = date("d.m.y");
@@ -421,5 +416,4 @@ $objFopen = fopen($strFileName, 'a');
 $strText1 = "\n".$Da.",".$Ti.",".$findName.",".$findresult.",".$displayname;
 fwrite($objFopen, $strText1);
 fclose($objFopen);
-
 echo "OK";
