@@ -1,5 +1,5 @@
-<?php //กฟต.1-7
-$access_token = 'FuAKF3ts4w0mtRwFuVSmTmKy3Qnvru2iWrDFhrkfLiy+eoDhyJsIXusrccWzx5JlBRy2NFGnvS+UV3y9jrqG4TdomrK6cn2goKJ6NocFCBS9fPaNEOar75EsM6CherpQT/iRv8Q40gDVQQUGb9Sy6wdB04t89/1O/w1cDnyilFU=';
+<?php //กฟต.1-8
+$access_token = 'Ic7C4amybrY/6I6lkMssHnGSK3vVz95ZMrSYPqjcRt+Sf+VxzcYDVAy8507sOMd+sP3XZPUyugknLV56oNMg3woZGXOsjUDclHB/E9r+2Og2VczR3137EvthFQjkz2fg34JJxhaX7RDMhN6C840V5gdB04t89/1O/w1cDnyilFU=';
 // Get POST body content
 //ตัวแปรรายการอุปกรณ์
 $pole = "49.เสาคอนกรีต 8 9 9.3 เมตร\n50.เสาคอนกรีต 12 12.2 14 14.3 16 เมตร\n…พิมพ์เลขที่หัวข้อที่ต้องการได้เลยครับ";
