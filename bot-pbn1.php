@@ -1,5 +1,5 @@
-<?php
-$access_token = 'uK2r676htODbjL3j7t7cz8N7x52wYxHS7HRY6Y5YT2o8iYJDYipzJaQG7QkYnrF+wlzOKvwCrWlg25b/Et/43ZbsTyQGO9IFqu8IlpmGvTYkPFkT8/cpRpABMVyGWn+eIlJQAzgNhdh2UhWYyFsCvgdB04t89/1O/w1cDnyilFU=';
+<?php //ปราน1
+$access_token = '7qZP7VUAqg2aFlkLgmrflBgmj7rUYc6HLf9M08hoNzZ1nQLG5jNQ+1zJ0Xe9ivZ0FQji4np2IdF1IbIAPL+gICtNwIJ33vTk5cRCkBkcZ3qlGug/miEQ75d4cVcZ1IQvcoPa83EeQ1+MRok7blresAdB04t89/1O/w1cDnyilFU=';
 // Get POST body content
 //ตัวแปรรายการอุปกรณ์
 $pole = "49.เสาคอนกรีต 8 9 9.3 เมตร\n50.เสาคอนกรีต 12 12.2 14 14.3 16 เมตร\n…พิมพ์เลขที่หัวข้อที่ต้องการได้เลยครับ";
