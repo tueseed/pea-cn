@@ -1,5 +1,5 @@
-<?php
-$access_token = 'uK2r676htODbjL3j7t7cz8N7x52wYxHS7HRY6Y5YT2o8iYJDYipzJaQG7QkYnrF+wlzOKvwCrWlg25b/Et/43ZbsTyQGO9IFqu8IlpmGvTYkPFkT8/cpRpABMVyGWn+eIlJQAzgNhdh2UhWYyFsCvgdB04t89/1O/w1cDnyilFU=';
+<?php //ชุมพร2
+$access_token = 'i0GuqPL2Q4s2Nn6pQxb7a1kcN+YEyncELciUfUJrYmZcu6rd5AwI2LnuZz6fymzK9p3o6VmNODxaP2NwFF+VExM6QmxoZBNtwGet7EAUbMP8jYyIGa6FyXu+kKHLQCquH70Y/sSGB7sr8igUxF8fvQdB04t89/1O/w1cDnyilFU=';
 // Get POST body content
 //ตัวแปรรายการอุปกรณ์
 $pole = "49.เสาคอนกรีต 8 9 9.3 เมตร\n50.เสาคอนกรีต 12 12.2 14 14.3 16 เมตร\n…พิมพ์เลขที่หัวข้อที่ต้องการได้เลยครับ";
